@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+	  <title>Title</title>
+
+</head>
+<body>
+<button class="toggle-btn" id="header-toggle"></button>
+<div class="header__nav" id="navbarSupportedContent">
+	  <button class="toggle-close" id="header-close-menu-btn"></button>
+	  <?php
+                        wp_nav_menu(
+                            array(
+                                'container'            => false,
+	  'items_wrap'     => '<ul id="%1$s" class="%2$s header__menu">%3$s</ul>',
+	  'theme_location' => 'menu-1',
+	  )
+	  );
+	  ?>
+</body>
+</html>
