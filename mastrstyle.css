@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    background: #122C44;
+}
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+}
+.header__content {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+}
+.header__menu {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header__menu__item {
+    list-style: none;
+    margin: 0 15px;
+}
+.header__menu__item a{
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+}
+.hero{
+    padding-bottom: 70px;
+    background:  url("img/Group 1 (1).png") 80% 80%/contain no-repeat ;
+    background-color: #122C44;
+
+
+}
+.hero__content {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.hero__content__title{
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+.hero__content__subtitle {
+    font-style: normal;
+    font-weight:700;
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+
+}
+span{
+    font-style: normal;
+    font-weight:700;
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: dodgerblue;
+}
+.hero__content__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+.hero__content__links a:first-child{
+    margin-right: 20px;
+
+}
+
+.gallery{
+    height: 600px;
+    background: #0E2337;
+}
+.gallery__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery__items img{
+    /*margin: 0 10px;*/
+    max-width: 299px;
+}
